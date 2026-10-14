@@ -1,2 +1,140 @@
-# python-journey
-My growing repository of Python programming — covering fundamentals, DSA, machine learning, and ongoing hands-on projects.
+# Python Journey 🐍
+
+> A comprehensive, continuously evolving repository documenting my progression in Python — from foundational syntax and core logic to Data Structures & Algorithms (DSA), Object-Oriented Programming (OOP), and Machine Learning practicals.
+
+---
+
+## 📑 Table of Contents
+1. [Data Structures & Algorithms (`DSA/`)](#-data-structures--algorithms-dsa)
+2. [Machine Learning Practicals](#-machine-learning-practicals)
+3. [Core Logic, Loops & Math](#-core-logic-loops--math)
+4. [Data Collections (Lists, Tuples, Sets & Dictionaries)](#-data-collections-lists-tuples-sets--dictionaries)
+5. [Conditionals, Strings & Utilities](#-conditionals-strings--utilities)
+6. [Functions & OOP](#-functions--oop)
+7. [How to Run](#-how-to-run)
+8. [Future Roadmap](#-future-roadmap)
+
+---
+
+## ⚡ Data Structures & Algorithms (`DSA/`)
+
+This directory contains implementations of classic searching and sorting algorithms, including real-world applications of algorithmic techniques.
+
+| File | Algorithm / Concept | Description |
+| :--- | :--- | :--- |
+| [`DSA/linear_search.py`](file:///Users/rishabh/Python/DSA/linear_search.py) | **Linear Search** | Iterates sequentially through an array to locate a target value and returns its index, or `-1` if absent ($O(n)$ time complexity). |
+| [`DSA/binary_search.py`](file:///Users/rishabh/Python/DSA/binary_search.py) | **Binary Search (Descending)** | Implements binary search ($O(\log n)$) on a reverse-sorted list using two pointers (`left`, `right`) and midpoint checking. |
+| [`DSA/Bubble_Sort.py`](file:///Users/rishabh/Python/DSA/Bubble_Sort.py) | **Bubble Sort** | Sorts an array in ascending order by repeatedly stepping through the list and swapping adjacent elements that are out of order ($O(n^2)$). |
+| [`DSA/Selection_Sort.py`](file:///Users/rishabh/Python/DSA/Selection_Sort.py) | **Selection Sort** | In-place comparison sort that finds the minimum element from the unsorted part and places it at the beginning ($O(n^2)$). |
+| [`DSA/Insertion_Sort.py`](file:///Users/rishabh/Python/DSA/Insertion_Sort.py) | **Insertion Sort** | Classic insertion sort that builds the final sorted array one item at a time by shifting larger elements to the right. |
+| [`DSA/Insertion_Sort1.py`](file:///Users/rishabh/Python/DSA/Insertion_Sort1.py) | **Real-Time Leaderboard** | Advanced real-world application using Python's `@dataclass`. Implements live streaming score insertion into an ordered leaderboard and batch sorting using insertion sort. |
+
+---
+
+## 🧠 Machine Learning Practicals
+
+End-to-end practical implementations of foundational machine learning workflows covering preprocessing, modeling, evaluation, and visualizations.
+
+| File | Type | Description |
+| :--- | :--- | :--- |
+| [`machineLearning.py`](file:///Users/rishabh/Python/machineLearning.py) | **Supervised Learning** | Full **House Price Prediction** pipeline using **Linear Regression**. Includes synthetic dataset creation, Exploratory Data Analysis (EDA), feature correlation, train-test splitting, model fitting, metric evaluation (Mean Squared Error, $R^2$ score), and residual plotting. |
+| [`UNSUPERVISED_LEARNING.py`](file:///Users/rishabh/Python/UNSUPERVISED_LEARNING.py) | **Unsupervised Learning** | Comprehensive practical on **K-Means Clustering**. Covers feature scaling with `StandardScaler`, finding the optimal number of clusters ($k$) via the **Elbow Method** (WCSS), fitting `KMeans`, evaluating with Silhouette Scores, and cluster visualization with centroids. |
+
+---
+
+## 🔁 Core Logic, Loops & Math
+
+Scripts focusing on fundamental control structures (`while`, `for`, `range`), arithmetic formulas, and iteration patterns.
+
+| File | Focus | Description |
+| :--- | :--- | :--- |
+| [`count_up.py`](file:///Users/rishabh/Python/count_up.py) | While Loop | Prints numbers incrementally from 1 to 100 using a `while` counter. |
+| [`count_down.py`](file:///Users/rishabh/Python/count_down.py) | While Loop | Decrements numbers from 100 down to 1 using a `while` loop. |
+| [`range_up.py`](file:///Users/rishabh/Python/range_up.py) | `range()` Function | Generates and prints numbers from 1 to 100 using `range(1, 101)`. |
+| [`range_down.py`](file:///Users/rishabh/Python/range_down.py) | Reverse `range()` | Counts backwards from 100 to 1 utilizing negative step indexing (`range(100, 0, -1)`). |
+| [`factorial.py`](file:///Users/rishabh/Python/factorial.py) | Math / Loops | Computes the factorial ($n!$) of a user-supplied integer using a `for` loop accumulator. |
+| [`sum_n.py`](file:///Users/rishabh/Python/sum_n.py) | Accumulator Pattern | Calculates the sum of the first $n$ natural numbers using a `while` loop. |
+| [`table.py`](file:///Users/rishabh/Python/table.py) | Multiplication Table | Generates a 1-to-10 multiplication table for any input integer using a `while` loop. |
+| [`range_table.py`](file:///Users/rishabh/Python/range_table.py) | Formatted Table | Generates an formatted multiplication table (`N x i = Result`) using a `for` loop and f-strings. |
+
+---
+
+## 📦 Data Collections (Lists, Tuples, Sets & Dictionaries)
+
+Hands-on exercises exploring Python's built-in compound data types and their native methods.
+
+| File | Data Structure | Description |
+| :--- | :--- | :--- |
+| [`list.py`](file:///Users/rishabh/Python/list.py) | List Manipulation | Prompts the user for favorite movie names and dynamically populates a list using `.append()`. |
+| [`list_len.py`](file:///Users/rishabh/Python/list_len.py) | List Sizing | Defines a function to compute and display the total length of any passed list. |
+| [`for_list.py`](file:///Users/rishabh/Python/for_list.py) | List Traversal | Demonstrates clean for-in iteration over a list of square numbers. |
+| [`print_list.py`](file:///Users/rishabh/Python/print_list.py) | Index Traversal | Iterates through list indices manually using a `while` loop and boundary check. |
+| [`print_elements.py`](file:///Users/rishabh/Python/print_elements.py) | Custom Traversal | Function that prints list elements inline separated by spaces using `print(element, end=' ')`. |
+| [`sort.py`](file:///Users/rishabh/Python/sort.py) | List Sorting | Uses the in-place `.sort()` method to alphabetically organize a list of student letter grades. |
+| [`palindrome.py`](file:///Users/rishabh/Python/palindrome.py) | List Reversal | Validates whether a list is a palindrome by comparing a cloned copy with its reversed version (`.copy()` and `.reverse()`). |
+| [`tuple.py`](file:///Users/rishabh/Python/tuple.py) | Tuples & Counting | Counts occurrences of an element (e.g. grade "A") within an immutable tuple using `.count()`. |
+| [`tuple_search.py`](file:///Users/rishabh/Python/tuple_search.py) | Tuple Search | Searches for a specific value in a tuple using index tracking in a `while` loop. |
+| [`for_search.py`](file:///Users/rishabh/Python/for_search.py) | Search with Flag | Searches for a number in a tuple using a `for` loop with a boolean `found` flag. |
+| [`set.py`](file:///Users/rishabh/Python/set.py) | Sets & Uniqueness | Eliminates duplicate subject entries by casting a list to a `set` to determine the unique number of classrooms needed. |
+| [`unique.py`](file:///Users/rishabh/Python/unique.py) | Set Data Types | Highlights how sets preserve distinct values (such as `"9"` vs `"9.0"`). |
+| [`dictonary.py`](file:///Users/rishabh/Python/dictonary.py) | Dictionaries | Key-value store mapping words to their definitions and demonstrating dictionary lookups. |
+| [`empty_dictonary.py`](file:///Users/rishabh/Python/empty_dictonary.py) | Dynamic Dictionary | Interactively builds a student grade-book dictionary by taking subject-score pairs from user input. |
+
+---
+
+## 🔤 Conditionals, Strings & Utilities
+
+Entry-level exercises on basic arithmetic, conditional branches (`if`/`elif`/`else`), string operations, and conversions.
+
+| File | Topic | Description |
+| :--- | :--- | :--- |
+| [`hello.py`](file:///Users/rishabh/Python/hello.py) | Hello World | Standard first program to verify Python runtime environment. |
+| [`sum.py`](file:///Users/rishabh/Python/sum.py) | Addition | Takes two float inputs and calculates their sum. |
+| [`avg.py`](file:///Users/rishabh/Python/avg.py) | Average | Takes two numbers and calculates their arithmetic mean. |
+| [`sqArea.py`](file:///Users/rishabh/Python/sqArea.py) | Geometry Formula | Calculates the area of a square from a user-provided side length ($area = side^2$). |
+| [`string.py`](file:///Users/rishabh/Python/string.py) | String Syntax | Demonstrates single, double, and triple-quoted multiline string literals in Python. |
+| [`length.py`](file:///Users/rishabh/Python/length.py) | String Length | Computes and displays the length of a string using `len()`. |
+| [`dollarCount.py`](file:///Users/rishabh/Python/dollarCount.py) | Substring Count | Counts total occurrences of the `$` symbol in an input string using `.count('$')`. |
+| [`even_odd.py`](file:///Users/rishabh/Python/even_odd.py) | Modulo Operator | Determines whether an input integer is even or odd using the `% 2` condition. |
+| [`multiple7.py`](file:///Users/rishabh/Python/multiple7.py) | Divisibility Test | Checks if a given number is divisible by 7 using the modulo operator. |
+| [`greaterORequal.py`](file:///Users/rishabh/Python/greaterORequal.py) | Relational Logic | Compares two numbers to determine if the first is greater than or equal to the second. |
+| [`greatest_num.py`](file:///Users/rishabh/Python/greatest_num.py) | Nested Conditionals | Evaluates three input numbers and determines the maximum among them. |
+| [`usd_to_inr.py`](file:///Users/rishabh/Python/usd_to_inr.py) | Currency Converter | Function that converts United States Dollars (USD) to Indian Rupees (INR) based on a conversion multiplier. |
+
+---
+
+## 🏛️ Functions & OOP
+
+| File | Topic | Description |
+| :--- | :--- | :--- |
+| [`arr.py`](file:///Users/rishabh/Python/arr.py) | Default Arguments | Demonstrates function definitions with default parameter values (`def fun(x, y=3):`). |
+| [`abstract_class.py`](file:///Users/rishabh/Python/abstract_class.py) | Abstract Base Classes | Demonstrates Object-Oriented Programming (OOP) abstraction using Python's `abc` module (`ABC`, `@abstractmethod`). |
+
+---
+
+## 🚀 How to Run
+
+Ensure you have Python 3 installed. You can run any script directly from the root directory:
+
+```bash
+# Run basic scripts
+python3 hello.py
+python3 factorial.py
+
+# Run Data Structures & Algorithms
+python3 DSA/binary_search.py
+python3 DSA/Insertion_Sort1.py
+
+# Run Machine Learning scripts (requires scikit-learn, pandas, matplotlib)
+python3 machineLearning.py
+python3 UNSUPERVISED_LEARNING.py
+```
+
+---
+
+## 🗺️ Future Roadmap
+- [ ] Recursion and Backtracking problems
+- [ ] Stacks, Queues, and Linked Lists in Python
+- [ ] Object-Oriented Design Patterns
+- [ ] Deep Learning / Neural Network fundamentals
+- [ ] Mini project integrations (CLI tools, APIs with FastAPI/Flask)
