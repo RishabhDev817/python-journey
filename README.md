@@ -7,12 +7,13 @@
 ## 📑 Table of Contents
 1. [Data Structures & Algorithms (`DSA/`)](#-data-structures--algorithms-dsa)
 2. [Machine Learning Practicals](#-machine-learning-practicals)
-3. [Core Logic, Loops & Math](#-core-logic-loops--math)
-4. [Data Collections (Lists, Tuples, Sets & Dictionaries)](#-data-collections-lists-tuples-sets--dictionaries)
-5. [Conditionals, Strings & Utilities](#-conditionals-strings--utilities)
-6. [Functions & OOP](#-functions--oop)
-7. [How to Run](#-how-to-run)
-8. [Future Roadmap](#-future-roadmap)
+3. [Modular Projects & Package Architecture](#-modular-projects--package-architecture)
+4. [Core Logic, Loops & Math](#-core-logic-loops--math)
+5. [Data Collections (Lists, Tuples, Sets & Dictionaries)](#-data-collections-lists-tuples-sets--dictionaries)
+6. [Conditionals, Strings & Utilities](#-conditionals-strings--utilities)
+7. [Functions, Modules & OOP](#-functions-modules--oop)
+8. [How to Run](#-how-to-run)
+9. [Future Roadmap](#-future-roadmap)
 
 ---
 
@@ -39,6 +40,30 @@ End-to-end practical implementations of foundational machine learning workflows 
 | :--- | :--- | :--- |
 | [`machineLearning.py`](file:///Users/rishabh/Python/machineLearning.py) | **Supervised Learning** | Full **House Price Prediction** pipeline using **Linear Regression**. Includes synthetic dataset creation, Exploratory Data Analysis (EDA), feature correlation, train-test splitting, model fitting, metric evaluation (Mean Squared Error, $R^2$ score), and residual plotting. |
 | [`UNSUPERVISED_LEARNING.py`](file:///Users/rishabh/Python/UNSUPERVISED_LEARNING.py) | **Unsupervised Learning** | Comprehensive practical on **K-Means Clustering**. Covers feature scaling with `StandardScaler`, finding the optimal number of clusters ($k$) via the **Elbow Method** (WCSS), fitting `KMeans`, evaluating with Silhouette Scores, and cluster visualization with centroids. |
+
+---
+
+## 🏗️ Modular Projects & Package Architecture
+
+Structured, multi-file Python applications showcasing modular separation of concerns, clean code organization, and package imports.
+
+### 📁 Text Cleaner Project (`myProject/`)
+Demonstrates modular decomposition by separating utility logic into an independent module and consuming it via a main entry point.
+
+| File | Component | Description |
+| :--- | :--- | :--- |
+| [`myProject/analyzer.py`](file:///Users/rishabh/Python/myProject/analyzer.py) | **Text Normalizer** | Defines `analyze_text(text)` which trims and normalizes multi-space strings into single spaces using `split()` and `join()`. |
+| [`myProject/main.py`](file:///Users/rishabh/Python/myProject/main.py) | **Application Entry Point** | Imports `analyze_text` from the local `analyzer` module and executes the text-cleaning pipeline on input messages. |
+
+### 📦 AI Text Processing Package (`ai_project/`)
+Demonstrates package hierarchy with an internal `app/` subpackage containing specialized modules coordinated by a root orchestration script.
+
+| File | Component | Description |
+| :--- | :--- | :--- |
+| [`ai_project/app/cleaner.py`](file:///Users/rishabh/Python/ai_project/app/cleaner.py) | **Cleaner Module** | Implements `normalize_text(text)` to sanitize irregular spacing and clean strings for downstream NLP tasks. |
+| [`ai_project/app/analyzer.py`](file:///Users/rishabh/Python/ai_project/app/analyzer.py) | **Analyzer Module** | Implements `count_words(text)` to compute word counts and text statistics. |
+| [`ai_project/app/init.py`](file:///Users/rishabh/Python/ai_project/app/init.py) | **Package Initialization** | Package marker for the `app` namespace. |
+| [`ai_project/main.py`](file:///Users/rishabh/Python/ai_project/main.py) | **Project Pipeline** | Imports both `app.analyzer` and `app.cleaner` modules to run an end-to-end text preprocessing and word analysis pipeline. |
 
 ---
 
@@ -103,12 +128,14 @@ Entry-level exercises on basic arithmetic, conditional branches (`if`/`elif`/`el
 
 ---
 
-## 🏛️ Functions & OOP
+## 🏛️ Functions, Modules & OOP
 
 | File | Topic | Description |
 | :--- | :--- | :--- |
 | [`arr.py`](file:///Users/rishabh/Python/arr.py) | Default Arguments | Demonstrates function definitions with default parameter values (`def fun(x, y=3):`). |
 | [`abstract_class.py`](file:///Users/rishabh/Python/abstract_class.py) | Abstract Base Classes | Demonstrates Object-Oriented Programming (OOP) abstraction using Python's `abc` module (`ABC`, `@abstractmethod`). |
+| [`Calculator.py`](file:///Users/rishabh/Python/Calculator.py) | Custom Module | Implements reusable arithmetic utility functions designed for modular import across scripts. |
+| [`add.py`](file:///Users/rishabh/Python/add.py) | Module Imports | Demonstrates importing specific functions from a local module (`from Calculator import add`) and invoking them. |
 
 ---
 
@@ -121,9 +148,16 @@ Ensure you have Python 3 installed. You can run any script directly from the roo
 python3 hello.py
 python3 factorial.py
 
+# Run modular scripts & imports
+python3 add.py
+
 # Run Data Structures & Algorithms
 python3 DSA/binary_search.py
 python3 DSA/Insertion_Sort1.py
+
+# Run modular project pipelines
+python3 myProject/main.py
+python3 ai_project/main.py
 
 # Run Machine Learning scripts (requires scikit-learn, pandas, matplotlib)
 python3 machineLearning.py
@@ -137,4 +171,5 @@ python3 UNSUPERVISED_LEARNING.py
 - [ ] Stacks, Queues, and Linked Lists in Python
 - [ ] Object-Oriented Design Patterns
 - [ ] Deep Learning / Neural Network fundamentals
+- [x] Modular project architecture & package structure (`ai_project/`, `myProject/`)
 - [ ] Mini project integrations (CLI tools, APIs with FastAPI/Flask)
