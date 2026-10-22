@@ -102,6 +102,7 @@ Hands-on exercises exploring Python's built-in compound data types and their nat
 | [`for_search.py`](file:///Users/rishabh/Python/for_search.py) | Search with Flag | Searches for a number in a tuple using a `for` loop with a boolean `found` flag. |
 | [`set.py`](file:///Users/rishabh/Python/set.py) | Sets & Uniqueness | Eliminates duplicate subject entries by casting a list to a `set` to determine the unique number of classrooms needed. |
 | [`unique.py`](file:///Users/rishabh/Python/unique.py) | Set Data Types | Highlights how sets preserve distinct values (such as `"9"` vs `"9.0"`). |
+| [`unique_words.py`](file:///Users/rishabh/Python/unique_words.py) | Unique Words Finder | Extracts unique words from a string by normalizing casing, stripping punctuation, and leveraging set uniqueness. |
 | [`dictonary.py`](file:///Users/rishabh/Python/dictonary.py) | Dictionaries | Key-value store mapping words to their definitions and demonstrating dictionary lookups. |
 | [`empty_dictonary.py`](file:///Users/rishabh/Python/empty_dictonary.py) | Dynamic Dictionary | Interactively builds a student grade-book dictionary by taking subject-score pairs from user input. |
 
