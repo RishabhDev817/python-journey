@@ -29,6 +29,7 @@ This directory contains implementations of classic searching and sorting algorit
 | [`DSA/Selection_Sort.py`](file:///Users/rishabh/Python/DSA/Selection_Sort.py) | **Selection Sort** | In-place comparison sort that finds the minimum element from the unsorted part and places it at the beginning ($O(n^2)$). |
 | [`DSA/Insertion_Sort.py`](file:///Users/rishabh/Python/DSA/Insertion_Sort.py) | **Insertion Sort** | Classic insertion sort that builds the final sorted array one item at a time by shifting larger elements to the right. |
 | [`DSA/Insertion_Sort1.py`](file:///Users/rishabh/Python/DSA/Insertion_Sort1.py) | **Real-Time Leaderboard** | Advanced real-world application using Python's `@dataclass`. Implements live streaming score insertion into an ordered leaderboard and batch sorting using insertion sort. |
+| [`DSA/Quick_Sort.py`](file:///Users/rishabh/Python/DSA/Quick_Sort.py) | **Quick Sort** | Divide-and-conquer sorting algorithm that partitions elements around a pivot into left, middle, and right sublists, achieving average $O(n \log n)$ time complexity. |
 
 ---
 
@@ -155,6 +156,7 @@ python3 add.py
 # Run Data Structures & Algorithms
 python3 DSA/binary_search.py
 python3 DSA/Insertion_Sort1.py
+python3 DSA/Quick_Sort.py
 
 # Run modular project pipelines
 python3 myProject/main.py
