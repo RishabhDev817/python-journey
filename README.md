@@ -82,6 +82,7 @@ Scripts focusing on fundamental control structures (`while`, `for`, `range`), ar
 | [`sum_n.py`](file:///Users/rishabh/Python/sum_n.py) | Accumulator Pattern | Calculates the sum of the first $n$ natural numbers using a `while` loop. |
 | [`table.py`](file:///Users/rishabh/Python/table.py) | Multiplication Table | Generates a 1-to-10 multiplication table for any input integer using a `while` loop. |
 | [`range_table.py`](file:///Users/rishabh/Python/range_table.py) | Formatted Table | Generates an formatted multiplication table (`N x i = Result`) using a `for` loop and f-strings. |
+| [`fibonacci.py`](file:///Users/rishabh/Python/fibonacci.py) | Fibonacci Series | Generates the Fibonacci sequence up to $n$ terms using a `for` loop with tuple swapping. |
 
 ---
 
