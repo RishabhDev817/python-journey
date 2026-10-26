@@ -105,6 +105,10 @@ Hands-on exercises exploring Python's built-in compound data types and their nat
 | [`set.py`](file:///Users/rishabh/Python/set.py) | Sets & Uniqueness | Eliminates duplicate subject entries by casting a list to a `set` to determine the unique number of classrooms needed. |
 | [`unique.py`](file:///Users/rishabh/Python/unique.py) | Set Data Types | Highlights how sets preserve distinct values (such as `"9"` vs `"9.0"`). |
 | [`unique_words.py`](file:///Users/rishabh/Python/unique_words.py) | Unique Words Finder | Extracts unique words from a string by normalizing casing, stripping punctuation, and leveraging set uniqueness. |
+| [`set_operations.py`](file:///Users/rishabh/Python/set_operations.py) | Set Operations | Demonstrates union (`|`), intersection (`&`), difference (`-`), and symmetric difference (`^`) between sets. |
+| [`anagram_check.py`](file:///Users/rishabh/Python/anagram_check.py) | Anagram & Set Analysis | Checks if two strings are anagrams using sorted character matching and compares unique character sets. |
+| [`vowel_counter.py`](file:///Users/rishabh/Python/vowel_counter.py) | Vowels & Set Intersection | Identifies unique vowels in a sentence via set intersection with `{'a', 'e', 'i', 'o', 'u'}` and calculates vowel frequencies. |
+| [`char_frequency.py`](file:///Users/rishabh/Python/char_frequency.py) | Character Frequency | Computes the occurrence frequency for each unique character extracted from a string using sets. |
 | [`dictonary.py`](file:///Users/rishabh/Python/dictonary.py) | Dictionaries | Key-value store mapping words to their definitions and demonstrating dictionary lookups. |
 | [`empty_dictonary.py`](file:///Users/rishabh/Python/empty_dictonary.py) | Dynamic Dictionary | Interactively builds a student grade-book dictionary by taking subject-score pairs from user input. |
 
@@ -150,6 +154,14 @@ Ensure you have Python 3 installed. You can run any script directly from the roo
 # Run basic scripts
 python3 hello.py
 python3 factorial.py
+python3 fibonacci.py
+
+# Run set and string processing programs
+python3 unique_words.py
+python3 set_operations.py
+python3 anagram_check.py
+python3 vowel_counter.py
+python3 char_frequency.py
 
 # Run modular scripts & imports
 python3 add.py
