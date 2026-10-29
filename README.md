@@ -83,6 +83,10 @@ Scripts focusing on fundamental control structures (`while`, `for`, `range`), ar
 | [`table.py`](file:///Users/rishabh/Python/table.py) | Multiplication Table | Generates a 1-to-10 multiplication table for any input integer using a `while` loop. |
 | [`range_table.py`](file:///Users/rishabh/Python/range_table.py) | Formatted Table | Generates an formatted multiplication table (`N x i = Result`) using a `for` loop and f-strings. |
 | [`fibonacci.py`](file:///Users/rishabh/Python/fibonacci.py) | Fibonacci Series | Generates the Fibonacci sequence up to $n$ terms using a `for` loop with tuple swapping. |
+| [`pattern_right_triangle.py`](file:///Users/rishabh/Python/pattern_right_triangle.py) | Star Pattern | Prints a left-aligned right-angled star triangle for $n$ rows using nested loops. |
+| [`pattern_inverted_triangle.py`](file:///Users/rishabh/Python/pattern_inverted_triangle.py) | Star Pattern | Prints an inverted right-angled star triangle with decreasing stars per row. |
+| [`pattern_pyramid.py`](file:///Users/rishabh/Python/pattern_pyramid.py) | Star Pattern | Prints a centered full pyramid star pattern using space offsetting and $(2i - 1)$ stars per row. |
+| [`pattern_diamond.py`](file:///Users/rishabh/Python/pattern_diamond.py) | Star Pattern | Prints a symmetric diamond star pattern combining upper and lower triangular halves. |
 
 ---
 
@@ -155,6 +159,12 @@ Ensure you have Python 3 installed. You can run any script directly from the roo
 python3 hello.py
 python3 factorial.py
 python3 fibonacci.py
+
+# Run star pattern programs
+python3 pattern_right_triangle.py
+python3 pattern_inverted_triangle.py
+python3 pattern_pyramid.py
+python3 pattern_diamond.py
 
 # Run set and string processing programs
 python3 unique_words.py
