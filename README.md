@@ -87,6 +87,9 @@ Scripts focusing on fundamental control structures (`while`, `for`, `range`), ar
 | [`pattern_inverted_triangle.py`](file:///Users/rishabh/Python/pattern_inverted_triangle.py) | Star Pattern | Prints an inverted right-angled star triangle with decreasing stars per row. |
 | [`pattern_pyramid.py`](file:///Users/rishabh/Python/pattern_pyramid.py) | Star Pattern | Prints a centered full pyramid star pattern using space offsetting and $(2i - 1)$ stars per row. |
 | [`pattern_diamond.py`](file:///Users/rishabh/Python/pattern_diamond.py) | Star Pattern | Prints a symmetric diamond star pattern combining upper and lower triangular halves. |
+| [`pattern_inverted_pyramid.py`](file:///Users/rishabh/Python/pattern_inverted_pyramid.py) | Star Pattern | Prints an inverted pyramid star pattern with decreasing $(2i - 1)$ stars and leading spaces. |
+| [`pattern_hourglass.py`](file:///Users/rishabh/Python/pattern_hourglass.py) | Star Pattern | Prints a symmetric hourglass star pattern combining inverted and upright pyramid structures. |
+| [`pattern_hollow_square.py`](file:///Users/rishabh/Python/pattern_hollow_square.py) | Star Pattern | Prints an $n \times n$ hollow square star boundary using conditional row/column edge checks. |
 
 ---
 
@@ -165,6 +168,9 @@ python3 pattern_right_triangle.py
 python3 pattern_inverted_triangle.py
 python3 pattern_pyramid.py
 python3 pattern_diamond.py
+python3 pattern_inverted_pyramid.py
+python3 pattern_hourglass.py
+python3 pattern_hollow_square.py
 
 # Run set and string processing programs
 python3 unique_words.py
