@@ -90,6 +90,10 @@ Scripts focusing on fundamental control structures (`while`, `for`, `range`), ar
 | [`pattern_inverted_pyramid.py`](file:///Users/rishabh/Python/pattern_inverted_pyramid.py) | Star Pattern | Prints an inverted pyramid star pattern with decreasing $(2i - 1)$ stars and leading spaces. |
 | [`pattern_hourglass.py`](file:///Users/rishabh/Python/pattern_hourglass.py) | Star Pattern | Prints a symmetric hourglass star pattern combining inverted and upright pyramid structures. |
 | [`pattern_hollow_square.py`](file:///Users/rishabh/Python/pattern_hollow_square.py) | Star Pattern | Prints an $n \times n$ hollow square star boundary using conditional row/column edge checks. |
+| [`pattern_solid_square.py`](file:///Users/rishabh/Python/pattern_solid_square.py) | Star Pattern | Prints a filled $n \times n$ solid square grid of stars using nested loops. |
+| [`pattern_mirrored_triangle.py`](file:///Users/rishabh/Python/pattern_mirrored_triangle.py) | Star Pattern | Prints a right-aligned mirrored right-angled star triangle with leading space padding. |
+| [`pattern_right_pascal.py`](file:///Users/rishabh/Python/pattern_right_pascal.py) | Star Pattern | Prints a right Pascal's triangle (half-diamond) star pattern with increasing then decreasing rows. |
+| [`pattern_floyds_triangle.py`](file:///Users/rishabh/Python/pattern_floyds_triangle.py) | Number Pattern | Prints Floyd's triangle of consecutive integers in a right-triangular sequence. |
 
 ---
 
@@ -163,7 +167,7 @@ python3 hello.py
 python3 factorial.py
 python3 fibonacci.py
 
-# Run star pattern programs
+# Run pattern programs
 python3 pattern_right_triangle.py
 python3 pattern_inverted_triangle.py
 python3 pattern_pyramid.py
@@ -171,6 +175,10 @@ python3 pattern_diamond.py
 python3 pattern_inverted_pyramid.py
 python3 pattern_hourglass.py
 python3 pattern_hollow_square.py
+python3 pattern_solid_square.py
+python3 pattern_mirrored_triangle.py
+python3 pattern_right_pascal.py
+python3 pattern_floyds_triangle.py
 
 # Run set and string processing programs
 python3 unique_words.py
