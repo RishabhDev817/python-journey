@@ -94,6 +94,9 @@ Scripts focusing on fundamental control structures (`while`, `for`, `range`), ar
 | [`pattern_mirrored_triangle.py`](file:///Users/rishabh/Python/pattern_mirrored_triangle.py) | Star Pattern | Prints a right-aligned mirrored right-angled star triangle with leading space padding. |
 | [`pattern_right_pascal.py`](file:///Users/rishabh/Python/pattern_right_pascal.py) | Star Pattern | Prints a right Pascal's triangle (half-diamond) star pattern with increasing then decreasing rows. |
 | [`pattern_floyds_triangle.py`](file:///Users/rishabh/Python/pattern_floyds_triangle.py) | Number Pattern | Prints Floyd's triangle of consecutive integers in a right-triangular sequence. |
+| [`pattern_inverted_mirrored_triangle.py`](file:///Users/rishabh/Python/pattern_inverted_mirrored_triangle.py) | Star Pattern | Prints a right-aligned inverted right-angled star triangle with offset spacing. |
+| [`pattern_butterfly.py`](file:///Users/rishabh/Python/pattern_butterfly.py) | Star Pattern | Prints a symmetric butterfly wing star pattern with opposing triangles and middle space gaps. |
+| [`pattern_hollow_diamond.py`](file:///Users/rishabh/Python/pattern_hollow_diamond.py) | Star Pattern | Prints a hollow diamond star pattern tracing only outer perimeter edges. |
 
 ---
 
@@ -179,6 +182,9 @@ python3 pattern_solid_square.py
 python3 pattern_mirrored_triangle.py
 python3 pattern_right_pascal.py
 python3 pattern_floyds_triangle.py
+python3 pattern_inverted_mirrored_triangle.py
+python3 pattern_butterfly.py
+python3 pattern_hollow_diamond.py
 
 # Run set and string processing programs
 python3 unique_words.py
